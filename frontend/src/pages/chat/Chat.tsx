@@ -10,6 +10,7 @@ import { isEmpty } from "lodash-es";
 
 import styles from "./Chat.module.css";
 import Contoso from "../../assets/Contoso.svg";
+import Unisys from "../../assets/Unisys.png";
 
 import {
     ChatMessage,
@@ -586,7 +587,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Contoso}
+                                    src={Unisys}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
